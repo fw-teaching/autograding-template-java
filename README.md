@@ -15,10 +15,12 @@
 
 ## Uppgiften
 
-- Projektet innehåller en Main-fil med lite boilerplate-kod. Bekanta dig med den.
+- Projektet innehåller en Main-fil med lite boilerplate-kod. Börja med att få main()-metoden att skriva ut någonting när du kör programmet så att du vet att allt funkar som det ska.
 - Skapa en ny klass vid namn Hello.
 - Hello-klassen ska ha en variabel som kan lagra ett namn
 - Hello-klassen ska ha en s.k. getter-metod vid namn getName() 
 - Hello-klassen ska instansieras i main()-metoden och samtidigt få värdet på namnvariabeln i form av en enda konstruktorparameter 
-- När man kör programmet ska texten "Hello [namn]" skrivas ut i konsolen.
+- När man kör programmet ska texten "Hello [värdet från namnvariabeln]" skrivas ut i konsolen.
+
+Observera att klass- och metodnamn måste vara skrivna exakt som ovan.
 
