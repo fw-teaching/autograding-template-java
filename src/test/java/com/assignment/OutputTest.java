@@ -29,7 +29,7 @@ public class OutputTest {
         Main.main(null);
 
         // Testa att programmets output har minst en viss längd
-        assertTrue(outputStream.toString().length() > 5);
+        assertTrue(outputStream.toString().length() > 4);
 
         // Återställ programmets normala output
         System.setOut(originalOut);
