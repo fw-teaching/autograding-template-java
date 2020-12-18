@@ -5,6 +5,9 @@
 package com.assignment;
 
 import org.junit.jupiter.api.Test;
+
+import java.lang.reflect.InvocationTargetException;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -14,7 +17,17 @@ import static org.junit.jupiter.api.Assertions.*;
 class HelloTest {
     @Test
     public void getName() {
-        Hello h = new Hello("testname");
+
+        /**
+         *  Dynamisk version av: Hello h = new Hello("testname");
+         *  Behövs för att testet skall kunna kompilera fast Hello-klassen inte existerar
+         */
+        Class h = null;
+        try {
+            h = (Class) Class.forName("Hello").getDeclaredConstructor().newInstance("testname");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         assertEquals("testname", h.getName());
     }
 }
