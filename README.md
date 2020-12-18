@@ -13,7 +13,7 @@
 
   `git clone git@github.com:fw-teaching/hello-java-*****.git` (svara "yes" om det kommer en varning första gången)
 
-- Öppna IntelliJ och välj Open, och navigera till den katalog du just skapade med Git (du får använda någon annan editor också om du vet hur du ska göra). 
+- Öppna IntelliJ och välj Open, och navigera till den katalog du just skapade med Git (du får använda någon annan editor också om du vet hur du ska göra. Du kan t.o.m. editera filerna direkt på GitHub!). 
 - Om Run-knappen uppe till höger i IntelliJ inte är aktiverad, klicka på Edit configurations, _Add configuration (+)_ och välj _Application_ från listan. 
   Du måste antagligen också söka upp Main-klassen (com.assignment.main), välja _Java 11_ som JRE samt välja _Classpath of module_ (ta den med _.main_ på slutet). 
   Spara konfigurationen, nu borde programmet gå att köra.
@@ -23,10 +23,10 @@
 - Allt relevant för uppgiften finns i katalogen `/src/main/java/com/assignment/`. Gör inga ändringar i någon annan katalog än denna.
 - Projektet innehåller en Main-fil med lite boilerplate-kod.
 
-###a) 1/5 poäng
-1. Få programmet att skriva ut "Hello World!" i konsolen när du kör programmet. 
+### a) 1/5 poäng
+1. Få programmet att skriva ut "Hello World!" i konsolen när du kör det. 
 
-###b) 4/5 poäng
+### b) 4/5 poäng
 1. Skapa en ny klass vid namn `Hello`.
 2. Hello-klassen ska ha en variabel som kan lagra ett namn
 3. Hello-klassen ska ha en s.k. getter-metod vid namn `getName()`
