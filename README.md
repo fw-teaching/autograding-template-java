@@ -30,10 +30,11 @@
 1. Skapa en ny klass vid namn `Hello`.
 2. Hello-klassen ska ha en variabel som kan lagra ett namn
 3. Hello-klassen ska ha en s.k. getter-metod vid namn `getName()`
-4. Hello-klassen ska instansieras som ett objekt i `main()`-metoden och samtidigt få värdet på namnvariabeln i form av en enda konstruktorparameter.
+4. Hello-klassen ska instansieras som ett objekt i `main()`-metoden och samtidigt få värdet på namnvariabeln i form av en enda konstruktorparameter. 
 5. Ändra programmets konsolutskrift till "Hello [värdet från namnvariabeln]"
 
 - Observera att klass- och metodnamn måste vara skrivna exakt som ovan, annars kommer det automatiska testet inte att gå igenom.
+- Observera också att testet kräver att konstruktorer är `public`.
 
 ## Inlämning
 
@@ -48,8 +49,10 @@
 
 ## Automatisk testning
 
-- När pushen är gjord, kolla din repo på GitHub. Ovanför listan på filer syns din senaste commit med en orange boll om testet ännu inte körts, en grön checkmark om testet gått igenom, och ett rött kryss om testet underkänts. Klicka på symbolen och sedan _Details_ för mera info.   
+- När pushen är gjord, kolla din repo på GitHub. Ovanför listan på filer syns din senaste commit med en orange boll om testet ännu inte körts, en grön checkmark om testet gått igenom, och ett rött kryss om testet underkänts. Klicka på symbolen och sedan _Details_ för mera info.
+- Observera att det kan stå "All checks have failed" trots att t.ex. första delen av uppgiften har gått igenom, så kolla testets details innan du börjar misströsta.
 - Om testet inte går igenom kolla om du har något fel i din kod eller om du möjligen inte gjort uppgiften exakt enligt beskrivningen. Korrigera i så fall din kod, och om du inte har skapat några nya filer räcker det med att köra en `git commit -a -m "Alla buggar fixade"` och sedan `git push` till sist. Du får göra detta hur många gånger som helst.
 - Det finns skilda tester för uppgift a) och uppgift b), och båda måste gå igenom för fulla poäng.
+
 
 
