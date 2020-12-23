@@ -30,10 +30,11 @@
 1. Skapa en ny klass vid namn `Hello`.
 2. Hello-klassen ska ha en variabel som kan lagra ett namn
 3. Hello-klassen ska ha en s.k. getter-metod vid namn `getName()`
-4. Hello-klassen ska instansieras som ett objekt i `main()`-metoden och samtidigt få värdet på namnvariabeln i form av en enda konstruktorparameter.
+4. Hello-klassen ska instansieras som ett objekt i `main()`-metoden och samtidigt få värdet på namnvariabeln i form av en enda konstruktorparameter. 
 5. Ändra programmets konsolutskrift till "Hello [värdet från namnvariabeln]"
 
 - Observera att klass- och metodnamn måste vara skrivna exakt som ovan, annars kommer det automatiska testet inte att gå igenom.
+- Observera också att testet kräver att konstruktorer är `public`.
 
 ## Inlämning
 
